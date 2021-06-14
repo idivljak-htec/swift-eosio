@@ -8,7 +8,8 @@ let package = Package(
         .library(name: "EOSIO", targets: ["EOSIO"]),
     ],
     dependencies: [
-	.package(url: "https://github.com/greymass/secp256k1.git", .branch("master")),
+	.package(url: "https://github.com/idivljak-htec/secp256k1", .branch("master")),
+
         .package(url: "https://github.com/jnordberg/swift-query-string-coder.git", .branch("master")),
     ],
     targets: [
